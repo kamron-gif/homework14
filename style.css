@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #cd5d5d;
+  text-align: center;
+}
+
+.tepa1 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.tepa2 {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.q,
+.w,
+.e {
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.center1,
+.center2 {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
